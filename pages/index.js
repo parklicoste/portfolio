@@ -1,10 +1,9 @@
 import Head from "next/head";
-import Main from "@/components/Main";
-import About  from "@/components/About";
-import  Skills  from "@/components/Skills";
-import  Projects  from "@/components/Projects";
-import  Contact  from "@/components/Contact";
-// const inter = Inter({ subsets: ["latin"] });
+import Main from "../components/Main";
+import About  from "../components/About";
+import  Skills  from "../components/Skills";
+import  Projects  from "../components/Projects";
+import  Contact  from "../components/Contact";
 
 export default function Home() {
   return (
@@ -13,7 +12,6 @@ export default function Home() {
         <title>Khushal | Full-Stack Developer</title>
         <meta></meta>
       </Head>
-      {/* <Navbar /> */}
       <Main />
       <About />
       <Skills />
