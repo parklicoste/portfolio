@@ -3,7 +3,7 @@ import {useRouter} from 'next/router'
 import Image from "next/image";
 import Link from "next/link";
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai';
-import navLogo from "../public/assets/NavLogofinal.png"
+import navLogo from "../public/assets/Navlogofinal.png"
 import {FaGithub ,FaLinkedinIn} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 
