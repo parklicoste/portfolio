@@ -8,10 +8,12 @@ import  Contact  from "../components/Contact";
 export default function Home() {
   return (
     <div>      
-      <Head>
-        <title>Khushal | Full-Stack Developer</title>
-        <meta></meta>
-      </Head>
+    <Head>        
+      <title>Khushal | Full-Stack Developer</title>
+      <meta property="og:title" content="Khushal | Full-Stack Developer" key="title" />
+      <link rel="icon" sizes="16x16" type="image/svg+xml" href="assets/googleScholaricon.png" />
+    </Head>
+
       <Main />
       <About />
       <Skills />
@@ -20,3 +22,5 @@ export default function Home() {
     </div>
   );
 }
+
+
