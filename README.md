@@ -22,4 +22,4 @@ This project uses [`react-icons`], [`Tailwind CSS`]
 
 ## Deployment on Vercel
 
-Open [https://khushalksingh.vercel.app] to see the deployed version of this Web App.
+Open [https://khushalksingh.vercel.app](https://khushalksingh.vercel.app) to see the deployed version of this Web App.
