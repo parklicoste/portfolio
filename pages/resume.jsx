@@ -12,8 +12,7 @@ const resume = () => {
         <meta
           name='description'
           content='I’m a Full-Stack Software developer specializing in building (and occasionally designing) exceptional digital experiences.'/>
-          <link rel="icon" sizes="16x16" type="image/svg+png" href="assets/googleScholaricon.png" />
-          <link rel="icon" type="image/svg+png" href='../public/assets/googleScholaricon.png' />
+          <link rel="shortcut icon" href='assets/Navlogofinal.png' />
       </Head>
 
       <div className='max-w-[1240px] mx-auto p-2 pt-[120px]'>

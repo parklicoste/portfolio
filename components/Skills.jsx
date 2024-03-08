@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from 'next/image';
+import React from 'react';
+import SkillItem from './SkillItem';
 import html_logo from '../public/assets/skills/html.png';
 import css_logo from '../public/assets/skills/css.png';
 import javascript_logo from '../public/assets/skills/javascript.png';
@@ -8,6 +8,21 @@ import tailwind_logo from '../public/assets/skills/tailwind.png';
 import node_logo from '../public/assets/skills/node.png';
 import github_logo from '../public/assets/skills/github1.png';
 import mongo_logo from '../public/assets/skills/mongo.png';
+import python_logo from '../public/assets/skills/python.png';
+import java_logo from '../public/assets/skills/java.png';
+import flask_logo from '../public/assets/skills/flask.png';
+import linux_logo from '../public/assets/skills/linux.png';
+import mysql_logo from '../public/assets/skills/mysql.png';
+import perforce_logo from '../public/assets/skills/perforce.png'
+import teamcity_logo from '../public/assets/skills/teamcity.png';
+import csharp_logo from '../public/assets/skills/cshp.png';
+import cplusplus_logo from '../public/assets/skills/cpp.png';
+import jenkins_logo from '../public/assets/skills/jenkins.png';
+import docker_logo from '../public/assets/skills/docker.png';
+import postman_logo from '../public/assets/skills/postman.png';
+
+
+
 
 export const Skills = () => {
   return (
@@ -15,108 +30,27 @@ export const Skills = () => {
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Skills</p>
             <h2 className='py-4'>What can I do</h2>
-            <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src={html_logo} width='64px' height='64px' alt='/' />
-                        </div>
-                        <div className=' flex flex-col items-center justify-center'>
-                            <h3>HTML</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src={css_logo} width='64px' height='64px' alt='/' />
-                        </div>
-                        <div className=' flex flex-col items-center justify-center'>
-                            <h3>CSS</h3>
-                        </div>
-
-                    </div>
-
-
-                </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src={tailwind_logo} width='64px' height='64px' alt='/' />
-                        </div>
-                        <div className=' flex flex-col items-center justify-center'>
-                            <h3>Tailwind</h3>
-                        </div>
-
-                    </div>
-
-
-                </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src={github_logo} width='64px' height='64px' alt='/' />
-                        </div>
-                        <div className=' flex flex-col items-center justify-center'>
-                            <h3>GitHub</h3>
-                        </div>
-
-                    </div>
-
-
-                </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src={javascript_logo} width='64px' height='64px' alt='/' />
-                        </div>
-                        <div className=' flex flex-col items-center justify-center'>
-                            <h3>JavaScript</h3>
-                        </div>
-
-                    </div>
-
-
-                </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src={react_logo} width='64px' height='64px' alt='/' />
-                        </div>
-                        <div className=' flex flex-col items-center justify-center'>
-                            <h3>React</h3>
-                        </div>
-
-                    </div>
-
-
-                </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src={node_logo} width='64px' height='64px' alt='/' />
-                        </div>
-                        <div className=' flex flex-col items-center justify-center'>
-                            <h3>NodeJS</h3>
-                        </div>
-
-                    </div>
-
-
-                </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-                        <div className='m-auto'>
-                            <Image src={mongo_logo} width='64px' height='64px' alt='/' />
-                        </div>
-                        <div className=' flex flex-col items-center justify-center'>
-                            <h3>MongoDB</h3>
-                        </div>
-
-                    </div>
-
-
-                </div>
+            <div className='grid md:grid-cols-2 lg:grid-cols-6 gap-8'>
+                <SkillItem logo={html_logo} name="HTML"/>
+                <SkillItem logo={css_logo} name="CSS"/>
+                <SkillItem logo={javascript_logo} name="Javascript"/>
+                <SkillItem logo={react_logo} name="React JS"/>
+                <SkillItem logo={tailwind_logo} name="Tailwind"/>
+                <SkillItem logo={github_logo} name="GitHub"/>
+                <SkillItem logo={node_logo} name="Node JS"/>
+                <SkillItem logo={mongo_logo} name="MongoDB"/>
+                <SkillItem logo={python_logo} name="Python"/>
+                <SkillItem logo={cplusplus_logo} name="C++"/>
+                <SkillItem logo={csharp_logo} name="C#"/>
+                <SkillItem logo={java_logo} name="Java"/>
+                <SkillItem logo={flask_logo} name="Flask"/>
+                <SkillItem logo={teamcity_logo} name="Team-City"/>
+                <SkillItem logo={linux_logo} name="Linux"/>
+                <SkillItem logo={mysql_logo} name="MySQL"/>
+                <SkillItem logo={perforce_logo} name="Perforce"/>
+                <SkillItem logo={jenkins_logo} name="Jenkins"/>
+                <SkillItem logo={docker_logo} name="Docker"/>
+                <SkillItem logo={postman_logo} name="Postman"/>
 
             </div>
         </div>
