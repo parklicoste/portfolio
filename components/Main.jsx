@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
