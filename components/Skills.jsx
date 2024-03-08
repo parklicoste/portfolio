@@ -20,6 +20,9 @@ import cplusplus_logo from '../public/assets/skills/cpp.png';
 import jenkins_logo from '../public/assets/skills/jenkins.png';
 import docker_logo from '../public/assets/skills/docker.png';
 import postman_logo from '../public/assets/skills/postman.png';
+import nextjs_logo from '../public/assets/skills/nextjs.png';
+import vercel_logo from '../public/assets/skills/vercel.png';
+import qt_logo from '../public/assets/skills/qt.png';
 
 
 
@@ -35,6 +38,7 @@ export const Skills = () => {
                 <SkillItem logo={css_logo} name="CSS"/>
                 <SkillItem logo={javascript_logo} name="Javascript"/>
                 <SkillItem logo={react_logo} name="React JS"/>
+                <SkillItem logo={nextjs_logo} name="Next JS"/>
                 <SkillItem logo={tailwind_logo} name="Tailwind"/>
                 <SkillItem logo={github_logo} name="GitHub"/>
                 <SkillItem logo={node_logo} name="Node JS"/>
@@ -45,13 +49,14 @@ export const Skills = () => {
                 <SkillItem logo={java_logo} name="Java"/>
                 <SkillItem logo={flask_logo} name="Flask"/>
                 <SkillItem logo={teamcity_logo} name="Team-City"/>
+                <SkillItem logo={vercel_logo} name="Vercel"/>
                 <SkillItem logo={linux_logo} name="Linux"/>
                 <SkillItem logo={mysql_logo} name="MySQL"/>
                 <SkillItem logo={perforce_logo} name="Perforce"/>
                 <SkillItem logo={jenkins_logo} name="Jenkins"/>
                 <SkillItem logo={docker_logo} name="Docker"/>
                 <SkillItem logo={postman_logo} name="Postman"/>
-
+                <SkillItem logo={qt_logo} name="QT"/>
             </div>
         </div>
 
