@@ -9,4 +9,18 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+
+  reactStrictMode: true,
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.pdf$/,
+      use: {
+        loader: 'file-loader',
+        options: {
+          name: '/public/my_resume.pdf',
+        },
+      },
+    });
+    return config;S
+  }
 };

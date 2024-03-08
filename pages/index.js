@@ -4,6 +4,8 @@ import About  from "../components/About";
 import  Skills  from "../components/Skills";
 import  Projects  from "../components/Projects";
 import  Contact  from "../components/Contact";
+import { SiGooglescholar } from "react-icons/si";
+
 
 export default function Home() {
   return (
@@ -11,7 +13,8 @@ export default function Home() {
     <Head>        
       <title>Khushal | Full-Stack Developer</title>
       <meta property="og:title" content="Khushal | Full-Stack Developer" key="title" />
-      <link rel="icon" sizes="16x16" type="image/svg+xml" href="assets/googleScholaricon.png" />
+      <link rel="icon" sizes="16x16" type="image/svg+png" href="assets/googleScholaricon.png" />
+      <link rel="icon" type="image/svg+png" href='../public/assets/googleScholaricon.png' />
     </Head>
 
       <Main />

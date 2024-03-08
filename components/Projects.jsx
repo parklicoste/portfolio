@@ -1,10 +1,8 @@
-import React from 'react'
-import Image from 'next/image';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg';
-import netflixImg from '../public/assets/projects/netflix.jpg';
-import twitchImg from '../public/assets/projects/twitch.jpg';
-import Link from 'next/link';
+import React from 'react';
+import aceuniImg from '../public/assets/projects/aceuni_pic.png';
+import shoppiesImg from '../public/assets/projects/shoppies.PNG';
+import webcatImg from '../public/assets/projects/webcat.png';
+import sapportalImg from '../public/assets/projects/crypto.jpg';
 import ProjectItem from './ProjectItem';
 
 export const Projects = () => {
@@ -14,13 +12,10 @@ export const Projects = () => {
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
-                <ProjectItem title='Property Finder' backgroundImg={propertyImg} projectUrl='/property'/>
-                <ProjectItem title='Crypto App' backgroundImg={cryptoImg} projectUrl='/crypto'/>
-                <ProjectItem title='Netflix App' backgroundImg={netflixImg} projectUrl='/netflix'/>
-                <ProjectItem title='Twitch App' backgroundImg={twitchImg} projectUrl='/twitch'/>
-
-
-
+                <ProjectItem title='Shopify Challenge - Frontend' tech='Next JS' backgroundImg={shoppiesImg} projectUrl='/shoppies'/>
+                <ProjectItem title='AceUni - Platform for students' tech='Next JS' backgroundImg={aceuniImg} projectUrl='/aceuni'/>
+                <ProjectItem title='Web-CAT - Automated Grading Tool' tech='Apache Tomcat' backgroundImg={webcatImg} projectUrl='/webcat'/>
+                <ProjectItem title='Self-Assessment Portal' tech='React JS' backgroundImg={sapportalImg} projectUrl='/sapportal'/>
             </div>
         </div>
     </div>
