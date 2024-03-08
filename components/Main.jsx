@@ -16,9 +16,10 @@ const Main = () =>{
                         A Full-Stack Software Developer
                     </h1>
                     <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-                        I'm a full-Stack software developer with skills in React, Python, C#, C++, NodeJS including databases like 
-                        MongoDB, MySQL. This portfolio is built using Next JS, and Tailwind, Deployed on vercel app. In my leisure time I like to read books, play Football, Chess, Badminton, Snowboarding, Table Tennis,
-                        Swimming and many more adventure Activities.
+                    I'm a full-stack software developer with skills in React, Python, C#, C++, NodeJS, including databases like MongoDB and MySQL. 
+                    This portfolio is built using Next JS and Tailwind, deployed on the Vercel platform. <br />
+                    In my leisure time, I like to read books, solve algorithms (checkout my leetcode below), play football (soccer), chess, badminton, 
+                    go snowboarding, hit the gym, play table tennis, swim, and engage in many more adventurous activities.
                     </p>
                     <div className="flex items-center justify-between max-w-[380px] m-auto py-4">
                         <a href="https://www.linkedin.com/in/khushalksingh"  target='_blank' rel='noreferrer'>
