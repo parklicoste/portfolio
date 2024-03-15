@@ -2,7 +2,6 @@
 const nextConfig = {
   output:  'export',
   distDir: 'dist',
-  basePath:  '/portfolio',
   reactStrictMode:  true,
   experimental: {
     // …
