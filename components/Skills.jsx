@@ -23,6 +23,7 @@ import postman_logo from '../public/assets/skills/postman.png';
 import nextjs_logo from '../public/assets/skills/nextjs.png';
 import vercel_logo from '../public/assets/skills/vercel.png';
 import qt_logo from '../public/assets/skills/qt.png';
+import arti_logo from '../public/assets/skills/jfrog.png';
 
 
 
@@ -57,6 +58,7 @@ export const Skills = () => {
                 <SkillItem logo={docker_logo} name="Docker"/>
                 <SkillItem logo={postman_logo} name="Postman"/>
                 <SkillItem logo={qt_logo} name="QT"/>
+                <SkillItem logo={arti_logo} name="Artifactory"/>
             </div>
         </div>
 
