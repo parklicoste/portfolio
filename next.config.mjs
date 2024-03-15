@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output:  'export',
+  output: 'export',
   distDir: 'dist',
-  reactStrictMode:  true,
+  reactStrictMode: true,
   experimental: {
     // …
     serverComponentsExternalPackages: ['@react-pdf/renderer'],
