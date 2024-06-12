@@ -10,7 +10,7 @@ export const About = () => {
 
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]' >About</p>
                 <h2 className='py-4'>Who I Am</h2>
-                <p className='py-2 text-gray-600'>&lt;// I am not your normal developer</p>
+                <p className='py-2 text-gray-600'> I am not your normal developer</p>
                 <p>As a Full Stack Developer with expertise in secure communication, 
                     I am passionate about building, deploying, and maintaining web applications, databases, 
                     and user accounts that enhance user experience and data efficiency. 
