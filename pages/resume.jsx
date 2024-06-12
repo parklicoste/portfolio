@@ -34,7 +34,7 @@ const resume = () => {
       <section id="resume" className="text-gray-400 bg-gray-900 body-font max-w-[1240px] mx-auto p-2 pt-[120px]">
             
             <div className="container max-w-[1240px] px-5 py-10 mx-auto text-center lg:px-40">
-              <embed  src='Myresume.pdf'  width="900px" height="800px" className='items-center'/>
+              <embed  src='Myresume.pdf.pdf'  width="900px" height="800px" className='items-center'/>
 
             </div> 
         </section>
