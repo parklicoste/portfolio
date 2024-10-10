@@ -10,8 +10,7 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
+Open [http://localhost:3000](http://localhost:3000)
 Components folder in this project has all the landing page section.
 
 Pages folder has index.js and app.js page with other ones.
