@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import aceuniImg from '../public/assets/projects/aceuni_pic.png';
+import aceuniImg from '@/assets/projects/aceuni_pic.png';
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link';
 
