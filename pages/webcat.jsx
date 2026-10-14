@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import {RiRadioButtonFill} from 'react-icons/ri';
-import webcatImg from '../public/assets/projects/webcat.png';
+import webcatImg from '@/assets/projects/webcat.png';
 import Link from 'next/link';
 
 const webcat = () => {
