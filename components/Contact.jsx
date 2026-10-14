@@ -1,5 +1,5 @@
 import React from 'react'
-import contact_pic from '../public/assets/contact.jpg';
+import contact_pic from '@/assets/contact.jpg';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';

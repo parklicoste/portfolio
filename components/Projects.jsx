@@ -1,8 +1,8 @@
 import React from 'react';
-import aceuniImg from '../public/assets/projects/aceuni_pic.png';
-import shoppiesImg from '../public/assets/projects/shoppies.PNG';
-import webcatImg from '../public/assets/projects/webcat.png';
-import sapportalImg from '../public/assets/projects/crypto.jpg';
+import aceuniImg from '@/assets/projects/aceuni_pic.png';
+import shoppiesImg from '@/assets/projects/shoppies.png';
+import webcatImg from '@/assets/projects/webcat.png';
+import sapportalImg from '@/assets/projects/crypto.jpg';
 import ProjectItem from './ProjectItem';
 
 export const Projects = () => {

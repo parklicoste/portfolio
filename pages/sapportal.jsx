@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import {RiRadioButtonFill} from 'react-icons/ri'
-import cryptoImg from '../public/assets/projects/crypto.jpg';
+import cryptoImg from '@/assets/projects/crypto.jpg';
 import Link from 'next/link';
 
 const sapportal = () => {

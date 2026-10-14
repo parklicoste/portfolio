@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import {RiRadioButtonFill} from 'react-icons/ri'
-import shoppiesImg from '../public/assets/projects/shoppies.PNG';
+import shoppiesImg from '@/assets/projects/shoppies.png'
 import Link from 'next/link';
 
 const shoppies = () => {
