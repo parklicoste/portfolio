@@ -5,9 +5,9 @@ const nextConfig = {
         unoptimized: true
   },
   reactStrictMode: true,
+  serverExternalPackages: ['@react-pdf/renderer'],
   experimental: {
-    // …
-    serverComponentsExternalPackages: ['@react-pdf/renderer'],
+    // Keep any other experimental flags you might have here
   }
 };
 
